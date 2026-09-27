@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tessellate Gaming – Institutional Trading &amp; Risk Platform for Sportsbooks</title>
+  <meta name="description" content="Tessellate Gaming brings hedge-fund-grade pricing, exposure management and hedging to licensed sportsbook operators — an institutional-grade B2B trading and risk platform run with investment-bank controls.">
+  <meta name="theme-color" content="#101826">
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=2">
+</head>
+<body>
+
+  <!-- ═════════ NAV ═════════ -->
+  <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+    <div class="nav-inner">
+      <a href="#top" class="logo" aria-label="Tessellate Gaming home">
+        <img src="images/logo.svg" alt="" class="logo-img" width="30" height="30">
+        <span class="logo-name">Tessellate <span class="logo-accent">Gaming</span></span>
+      </a>
+      <div class="nav-links">
+        <a href="#problem">Problem</a>
+        <a href="#opportunity">Opportunity</a>
+        <a href="#solution">Solution</a>
+        <a href="#platform">Platform</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#governance">Governance</a>
+      </div>
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn--sm btn--accent nav-cta">Contact</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+    <a href="#problem">Problem</a>
+    <a href="#opportunity">Opportunity</a>
+    <a href="#solution">Solution</a>
+    <a href="#platform">Platform</a>
+    <a href="#how-it-works">How It Works</a>
+    <a href="#governance">Governance</a>
+    <a href="#contact" class="btn btn--accent">Contact</a>
+  </div>
+
+  <!-- ═════════ HERO ═════════ -->
+  <header class="hero" id="top">
+    <canvas id="mesh-canvas" aria-hidden="true"></canvas>
+    <div class="hero-vignette" aria-hidden="true"></div>
+
+    <div class="hero-overlay">
+      <p class="label label--hero">B2B Gaming Marketplace Platform</p>
+      <h1 class="hero-title">The trading desk behind<br class="br-desk"> the modern sportsbook</h1>
+      <p class="hero-sub">Hedge-fund-grade pricing, exposure management and hedging — delivered as modular infrastructure to licensed operators.</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn--accent">Request a Briefing</a>
+        <a href="#how-it-works" class="btn btn--ghost">See How It Works</a>
+      </div>
+      <p class="hero-ticker" aria-label="Markets covered">
+        <span>Pre-match</span><i></i><span>In-play</span><i></i><span>Same-game parlays</span><i></i><span>Props</span>
+      </p>
+    </div>
+
+    <a href="#problem" class="scroll-cue" aria-label="Scroll to content">Scroll</a>
+  </header>
+
+  <main>
+
+    <!-- ═════════ PROBLEM ═════════ -->
+    <section class="section section--mist" id="problem">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="label">The Problem</span>
+          <h2>The quantitative core of betting is rented — and underbuilt.</h2>
+          <p class="section-intro">Sportsbooks have invested in brands, apps and customer acquisition. The engine that decides what every bet is worth has been left to a handful of turnkey suppliers.</p>
+        </div>
+
+        <div class="problem-grid">
+          <article class="problem-card reveal">
+            <span class="card-num">01</span>
+            <h3>Operators rent their trading brain</h3>
+            <p>Pricing and risk IP belongs to a small group of turnkey suppliers — not to the operator running the book and carrying the liability.</p>
+          </article>
+          <article class="problem-card reveal">
+            <span class="card-num">02</span>
+            <h3>The richest markets are priced crudely</h3>
+            <p>Live betting, same-game parlays and props demand the hardest math. They are exactly where books leak the most margin.</p>
+          </article>
+          <article class="problem-card reveal">
+            <span class="card-num">03</span>
+            <h3>Informed money is banned, not priced</h3>
+            <p>Books limit sharp customers because their risk systems can't absorb them. In any other market, that is a market-maker's failure.</p>
+          </article>
+          <article class="problem-card reveal">
+            <span class="card-num">04</span>
+            <h3>No one runs the book as a portfolio</h3>
+            <p>Exposure is managed event by event, while margin quietly leaks to prediction markets and offshore books.</p>
+          </article>
+        </div>
+
+        <div class="stat-callout reveal">
+          <div class="stat-callout-figure">
+            <span class="stat-num">10–40<span class="stat-unit">%</span></span>
+            <span class="stat-caption">of sportsbook GGR</span>
+          </div>
+          <p>Even the largest operators leave an estimated <strong>10–40% of sportsbook gross gaming revenue</strong> on the table through crude pricing, blunt limits and event-by-event risk management.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ OPPORTUNITY ═════════ -->
+    <section class="section section--dark section--lattice" id="opportunity">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="label">The Opportunity</span>
+          <h2>Margin is leaking where the math is hardest.</h2>
+          <p class="section-intro">Wagering activity is shifting toward products that price informed flow rather than ban it. Operators who can quote sharper, take more and manage risk across the whole book win that activity back — without giving up their brand or their customers.</p>
+        </div>
+
+        <div class="opp-grid">
+          <div class="opp-item reveal">
+            <span class="opp-num">$10B<span class="opp-unit">+</span></span>
+            <h3>Global market</h3>
+            <p>B2B sportsbook and iGaming trading, risk and marketplace platforms — a layer most operators still buy as a black box.</p>
+          </div>
+          <div class="opp-item reveal">
+            <span class="opp-num">In-play</span>
+            <h3>Where the edge is largest</h3>
+            <p>Live markets, same-game parlays and props are the fastest-growing products — and the ones that reward speed and correlation-aware pricing most.</p>
+          </div>
+          <div class="opp-item reveal">
+            <span class="opp-num">Signal</span>
+            <h3>Not a threat</h3>
+            <p>Informed flow carries information. Priced correctly, sharp customers improve the book instead of being shown the door.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ SOLUTION ═════════ -->
+    <section class="section section--light" id="solution">
+      <div class="container">
+        <div class="solution-layout">
+          <div class="solution-copy">
+            <div class="section-header section-header--left reveal">
+              <span class="label">The Solution</span>
+              <h2>A market-making desk for gaming.</h2>
+              <p class="section-intro">Tessellate brings the disciplines of hedge fund trading and investment banking to sportsbook operators — continuous price formation, portfolio-level risk, execution, liquidity sourcing and auditable P&amp;L. The finance-native rigor that betting-native suppliers were never built around.</p>
+            </div>
+
+            <ul class="capability-list">
+              <li class="capability reveal">
+                <span class="cap-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M3 17l5-6 4 3 6-8 3 3"/><path d="M3 21h18"/></svg>
+                </span>
+                <div>
+                  <h3>Pricing</h3>
+                  <p>Simulation-based, correlation-aware pricing across pre-match, in-play and parlays.</p>
+                </div>
+              </li>
+              <li class="capability reveal">
+                <span class="cap-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+                </span>
+                <div>
+                  <h3>Exposure management</h3>
+                  <p>The book measured as a portfolio — concentration, correlation and stress loss across every related market.</p>
+                </div>
+              </li>
+              <li class="capability reveal">
+                <span class="cap-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M4 8h13l-3-3"/><path d="M20 16H7l3 3"/></svg>
+                </span>
+                <div>
+                  <h3>Hedging</h3>
+                  <p>Netting in-book first, then authorized risk transfer to approved counterparties — with verified fills and reconciliation.</p>
+                </div>
+              </li>
+              <li class="capability reveal">
+                <span class="cap-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg>
+                </span>
+                <div>
+                  <h3>Low-latency infrastructure</h3>
+                  <p>In-play pricing engineered for speed, where the edge is largest.</p>
+                </div>
+              </li>
+              <li class="capability reveal">
+                <span class="cap-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg>
+                </span>
+                <div>
+                  <h3>Real-time risk</h3>
+                  <p>Informed flow priced as signal — not banned.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Illustrative console -->
+          <figure class="console reveal" aria-label="Illustrative Tessellate portfolio console">
+            <div class="console-head">
+              <span class="console-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span class="console-title">Trading Book · Portfolio View</span>
+              <span class="console-live"><i></i>Live</span>
+            </div>
+            <table class="console-table">
+              <thead>
+                <tr><th>Market</th><th>Selection</th><th class="num">Price</th><th>Exposure</th></tr>
+              </thead>
+              <tbody id="consoleRows"></tbody>
+            </table>
+            <div class="console-metrics">
+              <div><span>Net exposure</span><b id="netExposure">—</b></div>
+              <div><span>Mark-to-market</span><b id="consoleMtm">—</b></div>
+              <div><span>Stress loss</span><b id="consoleStress" class="neg">—</b></div>
+              <div class="cm-budget"><span>Risk budget used</span><b id="consoleBudget">—</b><i class="cm-bar"><i id="consoleBudgetBar"></i></i></div>
+            </div>
+            <div class="console-log" id="consoleLog" aria-live="off"></div>
+            <figcaption>Illustrative interface. Not live data.</figcaption>
+          </figure>
+        </div>
+
+        <div class="neutral-strip reveal">
+          <img src="images/logo.svg" alt="" width="36" height="36">
+          <p><strong>Neutral by design.</strong> Tessellate is a platform partner, not a sportsbook. We never take consumer wagers and never compete with the operators we serve.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ PLATFORM ═════════ -->
+    <section class="section section--mist" id="platform">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="label">The Platform</span>
+          <h2>A marketplace, not a black box.</h2>
+          <p class="section-intro">A modular platform. Operators integrate only the modules they need, alongside an incumbent supplier if they choose, and expand as each module proves itself.</p>
+        </div>
+
+        <div class="market-diagram reveal">
+          <div class="md-col">
+            <span class="md-head">Operators · Demand</span>
+            <div class="md-box">Sportsbook operators</div>
+            <div class="md-box">Tribal &amp; regional books</div>
+            <div class="md-box">Casino &amp; retail</div>
+          </div>
+
+          <div class="md-rail" aria-hidden="true"><i></i><i></i><i></i></div>
+
+          <div class="md-core">
+            <div class="md-core-ring">
+              <img src="images/logo.svg" alt="" width="72" height="72">
+            </div>
+            <span class="md-core-name">Tessellate</span>
+            <span class="md-core-sub">Marketplace Core</span>
+          </div>
+
+          <div class="md-rail" aria-hidden="true"><i></i><i></i><i></i></div>
+
+          <div class="md-col">
+            <span class="md-head">Modules · Supply</span>
+            <div class="md-box md-box--mod">Pricing engine</div>
+            <div class="md-box md-box--mod">Risk &amp; exposure</div>
+            <div class="md-box md-box--mod">Hedging &amp; liquidity</div>
+            <div class="md-box md-box--mod">Analytics &amp; compliance</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ TRADING BOOK ═════════ -->
+    <section class="section section--light" id="trading-book">
+      <div class="container">
+        <div class="book-layout">
+          <div class="book-copy">
+            <div class="section-header section-header--left reveal">
+              <span class="label">The Trading Book</span>
+              <h2>Every wager is a position.</h2>
+              <p class="section-intro">Tessellate turns the sportsbook backend into a managed portfolio with a defined risk appetite. Each accepted wager is booked to a portfolio ledger and assessed against the whole book — not just the event in front of it.</p>
+            </div>
+
+            <div class="ledger reveal">
+              <span class="ledger-head">Every position is tagged by</span>
+              <ul class="ledger-tags">
+                <li>Event</li><li>Outcome</li><li>Bet type</li><li>Time horizon</li><li>Customer segment</li><li>Correlated risk factor</li>
+              </ul>
+            </div>
+
+            <dl class="book-facts reveal">
+              <div>
+                <dt>Continuous fair value</dt>
+                <dd>Fair value and executable prices update with every data point and every order.</dd>
+              </div>
+              <div>
+                <dt>Whole-book decisions</dt>
+                <dd>Concentration, same-game correlation, likely payout and stress loss are weighed before a wager is accepted, repriced or declined.</dd>
+              </div>
+              <div>
+                <dt>Margin vs. mark-to-market</dt>
+                <dd>Traders see the edge being earned apart from the day-to-day swings in the book's value.</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="waterfall reveal">
+            <div class="wf-head">
+              <span class="label">Risk-transfer hierarchy</span>
+              <p>For every unit of residual risk, an optimizer compares each route by execution cost, basis risk, liquidity depth, timing and stressed loss.</p>
+            </div>
+            <ol class="wf-steps">
+              <li>
+                <span class="wf-n">01</span>
+                <div><h3>Natural offset</h3><p>Opposing flow inside the book is netted first — the cheapest hedge there is.</p></div>
+                <span class="wf-tag">In-book</span>
+              </li>
+              <li>
+                <span class="wf-n">02</span>
+                <div><h3>Reprice</h3><p>Move the quote to invite offsetting flow.</p></div>
+                <span class="wf-tag">Quote</span>
+              </li>
+              <li>
+                <span class="wf-n">03</span>
+                <div><h3>Resize</h3><p>Adjust maximum stakes on the concentrated side.</p></div>
+                <span class="wf-tag">Limits</span>
+              </li>
+              <li>
+                <span class="wf-n">04</span>
+                <div><h3>Warehouse</h3><p>Retain risk that fits the operator's risk budget and expected margin.</p></div>
+                <span class="wf-tag">Risk budget</span>
+              </li>
+              <li>
+                <span class="wf-n">05</span>
+                <div><h3>Transfer</h3><p>Route authorized orders to approved counterparties, verify fills and reconcile.</p></div>
+                <span class="wf-tag">External</span>
+              </li>
+            </ol>
+            <p class="wf-foot">Residual basis risk is measured and managed — never assumed away.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ HOW IT WORKS ═════════ -->
+    <section class="section section--dark section--lattice" id="how-it-works">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="label">How It Works</span>
+          <h2>Your sportsbook up front. Our engine behind it.</h2>
+          <p class="section-intro">Players keep the familiar interface. Behind it, Tessellate prices each market, evaluates every wager against portfolio exposure and records a full decision trail.</p>
+        </div>
+
+        <div class="flow reveal">
+          <div class="flow-tabs" role="tablist" aria-label="Wager lifecycle stages">
+            <button role="tab" id="tab-1" aria-controls="panel-flow" aria-selected="true"><span>01</span>Market setup</button>
+            <button role="tab" id="tab-2" aria-controls="panel-flow" aria-selected="false" tabindex="-1"><span>02</span>Price &amp; publish</button>
+            <button role="tab" id="tab-3" aria-controls="panel-flow" aria-selected="false" tabindex="-1"><span>03</span>Bet request</button>
+            <button role="tab" id="tab-4" aria-controls="panel-flow" aria-selected="false" tabindex="-1"><span>04</span>Execute &amp; record</button>
+            <button role="tab" id="tab-5" aria-controls="panel-flow" aria-selected="false" tabindex="-1"><span>05</span>Manage risk</button>
+            <button role="tab" id="tab-6" aria-controls="panel-flow" aria-selected="false" tabindex="-1"><span>06</span>Settle &amp; learn</button>
+            <div class="flow-progress" aria-hidden="true"><i id="flowProgress"></i></div>
+          </div>
+
+          <div class="flow-panel" id="panel-flow" role="tabpanel" aria-labelledby="tab-1">
+            <div class="flow-side">
+              <span class="flow-side-label">Operator &amp; player</span>
+              <p id="flowOperator"></p>
+            </div>
+            <div class="flow-side flow-side--t">
+              <span class="flow-side-label"><img src="images/logo.svg" alt="" width="14" height="14"> Tessellate</span>
+              <p id="flowTessellate"></p>
+            </div>
+            <div class="flow-output">
+              <span class="flow-output-label">Output</span>
+              <div class="flow-chips" id="flowChips"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="loop reveal">
+          <h3 class="loop-title">The trading &amp; liquidity loop</h3>
+          <ol class="loop-steps">
+            <li><span>Price</span>Models combine data, probabilities, margin targets and live positions.</li>
+            <li><span>Decide</span>Each wager can move the quote, the available stake or the hedge requirement.</li>
+            <li><span>Net</span>Offsetting flow inside the book is matched first.</li>
+            <li><span>Hedge</span>Residual risk is routed only to approved, contracted counterparties.</li>
+            <li><span>Learn</span>Hold, model error and customer flow feed recalibration.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ CONTROL ═════════ -->
+    <section class="section section--light" id="control">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="label">Operator Control</span>
+          <h2>Your brand. Your players. Your book.</h2>
+          <p class="section-intro">The operator keeps the customer relationship, the wallet and the licensed wagering operation. Tessellate runs the book to the operator's mandate — operator capital, permissions and customer data stay segregated, and every lever stays in the operator's hands.</p>
+        </div>
+
+        <ul class="own-pills reveal" aria-label="What the operator owns">
+          <li>Brand</li><li>Customer relationship</li><li>Player wallet</li><li>Licensed operations</li><li>Risk appetite</li><li>Final trading authority</li>
+        </ul>
+
+        <div class="module-table reveal" role="table" aria-label="Module responsibilities">
+          <div class="mt-row mt-row--head" role="row">
+            <span role="columnheader">Module</span>
+            <span role="columnheader">Tessellate delivers</span>
+            <span role="columnheader">You control</span>
+          </div>
+          <div class="mt-row" role="row">
+            <span role="cell" class="mt-name">Pricing &amp; execution</span>
+            <span role="cell" data-label="Tessellate delivers">Pre-match and live odds, correlated markets, quote freshness and bet decisions.</span>
+            <span role="cell" data-label="You control">Eligible markets, margin policy, maximum stakes and manual overrides.</span>
+          </div>
+          <div class="mt-row" role="row">
+            <span role="cell" class="mt-name">Risk &amp; exposure</span>
+            <span role="cell" data-label="Tessellate delivers">Aggregate liabilities, stress scenarios, customer-flow analysis and real-time alerts.</span>
+            <span role="cell" data-label="You control">Risk appetite, approval thresholds and escalation rules.</span>
+          </div>
+          <div class="mt-row" role="row">
+            <span role="cell" class="mt-name">Hedging &amp; liquidity</span>
+            <span role="cell" data-label="Tessellate delivers">Finds offsets; proposes or executes authorized risk transfers.</span>
+            <span role="cell" data-label="You control">Counterparty list, hedge limits, funding and execution permissions.</span>
+          </div>
+          <div class="mt-row" role="row">
+            <span role="cell" class="mt-name">Analytics &amp; compliance</span>
+            <span role="cell" data-label="Tessellate delivers">Decision logs, reconciliation, model monitoring and reporting exports.</span>
+            <span role="cell" data-label="You control">Record retention, surveillance, access and regulatory reporting.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ GOVERNANCE ═════════ -->
+    <section class="section section--dark section--lattice" id="governance">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="label">Governance</span>
+          <h2>Traded like a hedge fund.<br class="br-desk"> Governed like a bank.</h2>
+          <p class="section-intro">Speed at the desk, discipline behind it. Every trading decision sits inside an investment-bank control framework, so operators, boards and regulators can see exactly how risk is taken, transferred and paid for.</p>
+        </div>
+
+        <div class="gov-grid">
+          <article class="gov-card reveal">
+            <span class="gov-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 10l9-6 9 6"/><path d="M5 10v8M9.5 10v8M14.5 10v8M19 10v8"/><path d="M3 21h18"/></svg>
+            </span>
+            <h3>Treasury &amp; credit</h3>
+            <p>Counterparty eligibility, exposure limits, collateral terms, permitted products, funding capacity and approval thresholds — with clear escalation authority.</p>
+            <ul><li>Liquidity</li><li>Unsettled trades</li><li>Margin &amp; collateral</li><li>Concentration</li></ul>
+          </article>
+          <article class="gov-card reveal">
+            <span class="gov-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/><path d="M12 8v8M8 12h8"/></svg>
+            </span>
+            <h3>Independent risk oversight</h3>
+            <p>Model development, trading permissions and risk oversight are segregated. No one marks their own book.</p>
+            <ul><li>Segregation of duties</li><li>Limit governance</li></ul>
+          </article>
+          <article class="gov-card reveal">
+            <span class="gov-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M15 3v4h4"/><path d="M9 12h7M9 16h7"/></svg>
+            </span>
+            <h3>Complete audit trail</h3>
+            <p>Every quote, decision, override, order, fill and reconciliation is recorded, time-stamped and retrievable.</p>
+            <ul><li>Decision IDs</li><li>Reconciliation</li></ul>
+          </article>
+          <article class="gov-card reveal">
+            <span class="gov-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-5-5"/><path d="M8 11l2 2 4-4"/></svg>
+            </span>
+            <h3>Model validation</h3>
+            <p>Continuous monitoring of calibration, stale data, latency and unusual events. Models are challenged, not trusted.</p>
+            <ul><li>Calibration</li><li>Latency &amp; outage controls</li></ul>
+          </article>
+        </div>
+
+        <div class="gov-lower">
+          <figure class="pnl reveal" aria-label="Illustrative daily P&amp;L attribution bridge">
+            <div class="pnl-head">
+              <span class="pnl-title">Daily P&amp;L attribution</span>
+              <span class="pnl-note">Illustrative · indexed, GGR = 100</span>
+            </div>
+            <div class="pnl-rows">
+              <div class="pnl-row pnl-row--total" style="--s:0;--e:100"><span>Gross gaming revenue</span><i><b></b></i><em>100</em></div>
+              <div class="pnl-row pnl-row--neg" style="--s:82;--e:100"><span>Fair-value adjustment</span><i><b></b></i><em>−18</em></div>
+              <div class="pnl-row pnl-row--pos" style="--s:82;--e:88"><span>Hedge P&amp;L</span><i><b></b></i><em>+6</em></div>
+              <div class="pnl-row pnl-row--neg" style="--s:84;--e:88"><span>Transaction costs</span><i><b></b></i><em>−4</em></div>
+              <div class="pnl-row pnl-row--neg" style="--s:77;--e:84"><span>Fees</span><i><b></b></i><em>−7</em></div>
+              <div class="pnl-row pnl-row--neg" style="--s:75;--e:77"><span>Basis differences</span><i><b></b></i><em>−2</em></div>
+              <div class="pnl-row pnl-row--neg" style="--s:66;--e:75"><span>Remaining liability</span><i><b></b></i><em>−9</em></div>
+              <div class="pnl-row pnl-row--total pnl-row--net" style="--s:0;--e:66"><span>Net attributed P&amp;L</span><i><b></b></i><em>66</em></div>
+            </div>
+            <figcaption>Every day, the book is bridged from GGR to modeled fair value, hedge P&amp;L, costs, fees, basis and remaining liability. Structure shown is illustrative, not results.</figcaption>
+          </figure>
+
+          <div class="stress reveal">
+            <span class="label">Stress testing</span>
+            <h3>The book is shocked before the market does it.</h3>
+            <ul class="stress-list">
+              <li><span>SCN-01</span>Clustered outcomes</li>
+              <li><span>SCN-02</span>Abrupt line moves</li>
+              <li><span>SCN-03</span>Market closures</li>
+              <li><span>SCN-04</span>Counterparty failure</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ DEPLOYMENT ═════════ -->
+    <section class="section section--mist" id="deployment">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="label">Deployment</span>
+          <h2>Proven in the shadows before it goes live.</h2>
+          <p class="section-intro">Tessellate deploys module by module, beside the incumbent supplier — the way a bank stands up a new trading desk. Nothing touches a live wager until it has earned the right to.</p>
+        </div>
+
+        <ol class="timeline reveal">
+          <li>
+            <span class="tl-node">1</span>
+            <h3>Baseline</h3>
+            <p>One operator, a focused set of sports and bet types. Establish pricing, hold and risk benchmarks.</p>
+          </li>
+          <li>
+            <span class="tl-node">2</span>
+            <h3>Shadow book</h3>
+            <p>Run in parallel to compare prices, acceptance and exposure — with zero impact on live wagers.</p>
+          </li>
+          <li>
+            <span class="tl-node">3</span>
+            <h3>Supervised pilot</h3>
+            <p>Live pricing and bet decisions under conservative limits and trader supervision.</p>
+          </li>
+          <li>
+            <span class="tl-node">4</span>
+            <h3>Optimize</h3>
+            <p>Add portfolio optimization and approved liquidity routes once treasury, credit and model-validation controls pass review.</p>
+          </li>
+          <li>
+            <span class="tl-node">5</span>
+            <h3>Scale</h3>
+            <p>Expand across markets and operators through the same modular interfaces.</p>
+          </li>
+        </ol>
+
+        <div class="align-band reveal">
+          <div class="align-intro">
+            <span class="label">Commercial Model</span>
+            <h3>Aligned to operator profit.</h3>
+          </div>
+          <div class="align-item">
+            <h4>Platform &amp; integration</h4>
+            <p>Setup and ongoing license fees.</p>
+          </div>
+          <div class="align-item">
+            <h4>Revenue share</h4>
+            <p>A share of GGR on the markets Tessellate prices.</p>
+          </div>
+          <div class="align-item">
+            <h4>Performance fee</h4>
+            <p>Paid only from the incremental margin Tessellate creates.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ CONTACT ═════════ -->
+    <section class="section section--dark section--lattice contact" id="contact">
+      <div class="container">
+        <div class="contact-inner reveal">
+          <span class="label">Get in Touch</span>
+          <h2>Own the trading brain behind your book.</h2>
+          <p class="section-intro">Tessellate works with licensed sportsbook, casino and regional operators. Request a confidential briefing on pricing, risk and deployment.</p>
+          <div class="hero-cta">
+            <a href="mailto:hello@tessellate.gg?subject=Tessellate%20briefing%20request" class="btn btn--accent">Request a Briefing</a>
+            <a href="mailto:hello@tessellate.gg" class="btn btn--ghost btn--mono">hello@tessellate.gg</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═════════ FOOTER ═════════ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <a href="#top" class="logo">
+          <img src="images/logo.svg" alt="" class="logo-img" width="26" height="26">
+          <span class="logo-name">Tessellate <span class="logo-accent">Gaming</span></span>
+        </a>
+        <p class="footer-tag">The institutional trading and risk platform for the next generation of sportsbooks.</p>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="#problem">Problem</a>
+          <a href="#solution">Solution</a>
+          <a href="#platform">Platform</a>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#governance">Governance</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2026</span> Tessellate Gaming. All rights reserved.</p>
+        <p class="footer-legal">Tessellate provides a business-to-business platform to licensed operators and does not accept wagers from the public. Interfaces and figures shown are illustrative. Capabilities described reflect the platform roadmap; availability of any module, liquidity route or market is subject to agreements and regulatory approval in each jurisdiction.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js?v=2"></script>
+</body>
+</html>
